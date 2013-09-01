@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:c="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Chess Roulette</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <h:outputStylesheet library="css/bootstrap" name="bootstrap.css"/>
+    <h:outputStylesheet library="css/bootstrap" name="bootstrap-responsive.css"/>
+    <h:outputStylesheet library="css" name="main.css"/>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="resources/js/bootstrap/html5shiv.js"></script>
+    <![endif]-->
+</h:head>
+
+<h:body>
+
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"><span>Chess</span>Roulette</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <!--<li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Credits</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="main-content-block" class="container">
+
+    <div id="intro">
+        <div class="page-header">
+            <h1>Play Chess! <small>Connect now to play against strangers</small></h1>
+        </div>
+
+        <p>ChessRoulette lets you connect anonymously to play chess in realtime with random strangers.</p>
+    </div>
+
+    <button id="get-started" class="btn btn-large btn-danger" type="button">Get Started!</button>
+
+</div>
+
+
+<h:outputScript library="js" name="jquery.js"/>
+<h:outputScript library="js" name="jquery.atmosphere.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-transition.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-collapse.js"/>
+
+
+<!-- could be useful on the info / rules pages? -->
+<!--
+<h:outputScript library="js/bootstrap" name="bootstrap-modal.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-collapse.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-scrollspy.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-tab.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-tooltip.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-popover.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-button.js"/>
+
+<h:outputScript library="js/bootstrap" name="bootstrap-carousel.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-dropdown.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-typeahead.js"/>
+<h:outputScript library="js/bootstrap" name="bootstrap-alert.js"/>
+-->
+
+</h:body>
+
+</html>

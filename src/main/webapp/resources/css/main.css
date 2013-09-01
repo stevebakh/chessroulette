@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #222;
+    color: #999;
+}
+
+#main-content-block {
+    padding-top: 16px;
+}
+
+.navbar .brand span {
+    color: #fff;
+    text-shadow: 0 0 0.4em #fff
+}
+
+h1 {
+    color: #fff;
+}
+
+.page-header {
+    border-color: #333;
+}
